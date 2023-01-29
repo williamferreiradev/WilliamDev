@@ -1,0 +1,167 @@
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+
+    .cards-skills{
+        width: 100%;
+    }
+
+    .cards-skills .card{
+        width: 32%;
+    }
+    
+    .all-projects{
+        width: 100%;
+    }
+
+    .all-projects .project{
+        width: 32%;
+    }
+    
+}
+
+@media (max-width: 991px){
+/* MENU hamburger */
+    
+    .hamburger{
+        display: block;
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .list-menu {
+        position: fixed;
+        transform: translateX(100%);
+        top: 0;
+        left: 0;
+        margin: 0;
+        background: #050505d7;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        flex-direction: column;
+    }
+
+    .list-menu.active {
+        transform: translateX(0);
+    }    
+      
+    
+
+/* SECTION HERO */
+    .hero .container{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 4rem;
+        justify-content: center;
+    }
+
+    .hero .container .text h1, .hero .container .text p{
+        color: var(---text);
+    }
+
+    .hero .img-hero{
+        margin-top: 10rem;
+    }
+
+    /* SECTION-INFO */
+
+    .info .container{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        padding-top: 4rem;
+    }
+
+    .info .container .text .btns{
+        justify-content: center;
+    }
+
+    .info .container .text h2, .info .container .text p{
+        color: var(---text);
+    }
+
+    .info .img-info{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 10rem;
+    }
+    
+
+    /* SECTION SKILLS */
+
+    .skills .container .title{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .skills .container .title .text h2, .skills .container .title .text p{
+        color: var(---text);
+    }
+
+    .skills .container .cards-skills{
+        flex-direction: column;
+    }
+    .skills .container .cards-skills .card{
+        width: 100%;
+    }
+
+    /* SECTION PORTGOLIO */
+
+    .portfolio .container .text{
+        text-align: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .portfolio .container .text h2, .portfolio .container .text p{
+        color: var(---text);
+    }
+
+    .portfolio .container .all-projects{
+        flex-direction: column;
+    }
+    .portfolio .container .all-projects .project{
+        width: 70%;
+        border-radius: 0;
+    }
+
+    /* SECTION FORM */
+
+    .form-section .container{
+        flex-direction: column;
+    }
+
+    .form-section .container .left .text{
+        color: var(---text);
+    }
+    /* FOOTER */
+
+    .footer .container .row{
+        text-align: center;
+        align-items: center;
+        gap: 5rem;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 480px){
+    html{
+        font-size: 40%;
+    }
+}

@@ -1,0 +1,47 @@
+h1, h2, h3{
+    font-weight: 600;
+    line-height: 125%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+
+.btn-primary{
+    display: inline-block;
+    background-color: var(---bg1);
+    color: var(---white);
+    padding: 1.2rem 2.4rem;
+    font-weight: 600;
+    letter-spacing: -0.001px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover{
+    background-color: var(---bg1hover);
+    transform: scale(1.01);
+}
+
+.btn-secundary{
+    display: inline-block;
+    background-color: var(---bg1);
+    color: var(---white);
+    padding: 1.2rem 4rem;
+    font-weight: 600;
+    letter-spacing: -0.001px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+:root{
+    ---text: #111;
+    ---bg1 : #001131;
+    ---linear:linear-gradient(to bottom left, #ffffff, #0d02b1);;
+    ---menu: linear-gradient(to bottom left, #ffffff49rgba(14, 2, 177, 0.288)b1);;
+    ---linearDois:linear-gradient(to bottom left, #0d02b1, #ffffff);;
+    ---bg1hover: #022669;
+    ---card: linear-gradient(to bottom left, #0d02b1, #fafafa 10%);
+    ---card-hover: linear-gradient(to bottom left, #0d02b1, #ffffff);;
+    ---white: #fff;
+    ---hover-white: #c9c9c9;
+}
+
