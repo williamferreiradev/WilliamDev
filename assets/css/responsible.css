@@ -67,10 +67,10 @@
         padding-top: 4rem;
         justify-content: center;
     }
-
+/* 
     .hero .container .text h1, .hero .container .text p{
         color: var(---text);
-    }
+    } */
 
     .hero .img-hero{
         margin-top: 10rem;
@@ -88,10 +88,10 @@
     .info .container .text .btns{
         justify-content: center;
     }
-
+/* 
     .info .container .text h2, .info .container .text p{
         color: var(---text);
-    }
+    } */
 
     .info .img-info{
         display: flex;
@@ -109,9 +109,9 @@
         flex-direction: column;
     }
 
-    .skills .container .title .text h2, .skills .container .title .text p{
+/*     .skills .container .title .text h2, .skills .container .title .text p{
         color: var(---text);
-    }
+    } */
 
     .skills .container .cards-skills{
         flex-direction: column;
@@ -128,9 +128,9 @@
         flex-direction: column;
     }
 
-    .portfolio .container .text h2, .portfolio .container .text p{
+/*     .portfolio .container .text h2, .portfolio .container .text p{
         color: var(---text);
-    }
+    } */
 
     .portfolio .container .all-projects{
         flex-direction: column;
@@ -146,9 +146,9 @@
         flex-direction: column;
     }
 
-    .form-section .container .left .text{
+/*     .form-section .container .left .text{
         color: var(---text);
-    }
+    } */
     /* FOOTER */
 
     .footer .container .row{
